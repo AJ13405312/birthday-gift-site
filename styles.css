@@ -82,6 +82,12 @@ h4 {
 #gift_img_kenya:hover {
     background-image: url("images/kenyanflag.png");
 }
+span {
+    border-bottom: 2px solid green;
+}
+span:hover {
+    color: burlywood;
+}
 a {
     color: #efb0c9;
 }
@@ -89,4 +95,5 @@ a {
     color: rgb(12, 253, 4);
     width: 400px;
     margin: 20px auto 20px;
+
 }
