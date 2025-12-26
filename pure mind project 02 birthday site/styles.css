@@ -1,0 +1,188 @@
+body {
+    background-image: url("images/Trevor_birthday.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    color: #ffffff;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px black;
+
+}
+
+
+
+h1, h2, h3 {
+    text-shadow: 0px 0px 1px black;
+}
+
+#trv-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #efb0c9;
+}
+
+h4 {
+    background: #efb0c9;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bday_age {
+    background: #efb0c9;
+    padding: 4px 8px 4px 8px;
+    border-radius: 3px;
+    margin-bottom: 0;
+    margin-top: 16px;
+}
+#bday_date {
+    padding: 4px 8px 4px 8px;
+    border-radius: 3px;
+    margin-top: 8px;
+}
+
+
+.gift_img {
+    margin: 0 auto;
+    border: 6px solid #efb0c9;
+    width: 400px;
+    height: 400px;
+    width: 400px;
+    border: 6px solid #ffff;
+    border-radius: 10px;
+    background-image: url("images/gift-box.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+#gift_title {
+    margin-bottom: 10px;
+}
+#gift_hint {
+    margin-top: 0;
+}
+
+
+#gift_img_happy:hover {
+    background-image: url("images/happy_img.gif");
+}
+
+#gift_img_dancing:hover {
+    background-image: url("images/dancing.gif");
+}
+
+#gift_img_sweet-saying:hover {
+    background-image: url("images/sweet-saying.png");
+}
+#gift_img_fireworks:hover {
+    background-image: url("images/fireworks.bin")
+}
+#gift_img_kenya {
+    height: 200px;
+}
+#gift_img_kenya:hover {
+    background-image: url("images/kenyanflag.png");
+}
+a {
+    color: #efb0c9;
+}
+
+span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff0;
+    text-shadow: 0px 0px 2px black;
+}
+span:hover {
+    color: #00ffea;
+    text-shadow: 0px 0px 4px black;
+}
+iframe {
+    margin: 20px auto 20px;
+    display: block;
+}
+
+audio {
+    margin: 20px auto 20px;
+    display: block;
+}
+#footer {
+    color: rgb(12, 253, 4);
+    width: 400px;
+    margin: 20px auto 20px;
+}
+
+
+/* Recent Edits Below */
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.audio_container {
+    margin-top: 20px;
+}
+.header_container {
+    margin-bottom: 20px;
+}
+.gift_container {
+    margin-top: 20px;
+}
+.gift_container_big {
+    margin-top: 20px;
+}
+.header_container_small {
+    margin-bottom: 20px;
+}   
+.gift_container_small {
+    margin-top: 20px;
+}
+
+a:hover {
+    color: #27c512;
+    text-decoration: none;
+}
+a:visited {
+    color: #c127d5;
+}
+a:active {
+    color: #27a4c5;
+}
+a:link {
+    color: #efb0c9;
+}
+.GIF_img {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 6px solid #ffff;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.main_img {
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    border: 6px solid #ffff;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+
+}
